@@ -18,5 +18,5 @@ jobs:
         with:
           who-to-greet: "test"
           
-      - name: Output time set in the container
+      - name: Output name of the greeter
         run: echo "Hello ${{ steps.hello-action.outputs.greeting }}"
