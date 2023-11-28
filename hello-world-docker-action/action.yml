@@ -1,5 +1,5 @@
 name: Hello, World!
-description: Greet someone and record the time
+description: Greet someone
 author: GitHub Actions
 
 # Define your inputs here.
@@ -12,7 +12,7 @@ inputs:
 # Define your outputs here.
 outputs:
   time:
-    description: The time we greeted you
+    description: The name of the greeter
 
 runs:
   using: docker
